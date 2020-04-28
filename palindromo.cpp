@@ -17,7 +17,6 @@ int main(){
 	cout<<"Ingrese la palabra"<<endl;
 	gets(vectorA);
 	valor = strlen(vectorA);
-	cout<<valor;
 	//pasar el vectorA al vectorB invertido
 	//corrimiento a la izq
 	for(i=valor-1;i>=0;i--){
@@ -32,6 +31,7 @@ int main(){
 			aux=true;
 		}else{
 			aux=false;
+			i=21;
 		}
 	}
 	
